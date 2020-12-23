@@ -1,0 +1,16 @@
+[
+  {
+    "IBAN": "1234567890",
+    "type": "savings",
+    "customerName": "Neo",
+    "currency": "EUR",
+    "balance": "5000"
+  },
+  {
+    "IBAN": "1234567890",
+    "type": "current",
+    "customerName": "Neo",
+    "currency": "EUR",
+    "balance": "3421.12"
+  }
+]

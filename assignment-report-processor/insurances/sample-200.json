@@ -1,0 +1,14 @@
+[
+  {
+    "type": "car-insurance",
+    "customerName": "Neo",
+    "coverage": "20000",
+    "premium": "100"
+  },
+  {
+    "type": "liability-insurance",
+    "customerName": "Neo",
+    "coverage": "400000",
+    "premium": "20"
+  }
+]
