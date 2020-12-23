@@ -1,6 +1,6 @@
 # Assignment
 
 Different code assigment are grouped under one git repo. 
-* [assignment-customer-statement-processor](./assignment-customer-statement-processor)
-* [assignment-certificate-validation](./assignment-certificate-validation)
-* [assignment-customer-overview](./assignment-customer-overview)
+* [Download assignment-customer-statement-processor](./assignment-customer-statement-processor.zip)
+* [Download assignment-certificate-validation](./assignment-certificate-validation.zip)
+* [Download assignment-customer-overview](./assignment-customer-overview.zip)
