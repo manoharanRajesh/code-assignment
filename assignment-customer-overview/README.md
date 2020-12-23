@@ -1,4 +1,4 @@
-# Assigment with parallel call
+# Customer Overview
 
 In our bank we to build a rest api for online customer overview application.
 This application needs to getting data from multiple backend systems via rest calls.
