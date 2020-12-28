@@ -22,4 +22,15 @@ Based on customerID it needs to gather details from following systems.
 3. Based on the sample jsons,create a stub application for external calls (Customers,accounts and Insurances applications).
 3. Also think about the negative flows and fail fast in case external system take more time.
 
+## Instructions
+
+* Assignment should be submitted as a maven project.
+* Junit should be well written.
+* Integration test should be implemented.
+* Share the project with us as a git bundle.
+
+### How to create a git bundle
+* Run `git bundle create <assignment-name>.bundle <branch>` to create a git bundle.
+* Run `git clone <assignment-name>.bundle` to un-bundle the repo.
+* Please find more info about git bundle here - https://git-scm.com/docs/git-bundle
 

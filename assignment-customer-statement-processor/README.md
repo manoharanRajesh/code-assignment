@@ -36,9 +36,9 @@ Implement a REST service which receives the customer statement JSON as a POST da
 
 ## Instructions
 
-* Assignment should be submitted as a maven project
+* Assignment should be submitted as a maven project.
 * Junit should be well written.
-* Integration test should be implemented ( For Mediors only )
+* Integration test should be implemented.
 * Share the project with us as a git bundle.
 
 ### How to create a git bundle

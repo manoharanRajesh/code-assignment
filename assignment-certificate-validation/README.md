@@ -59,3 +59,14 @@ If the IBAN validation is failed, then the application must respond`INVALID_REQU
 When something went wrong on the application, it must respond HTTP status code `500` and `GENERAL_ERROR` error response code. This includes an error case which
 isn't applicable of the above validation error situation (e.g. missing certificate).
 
+## Instructions
+
+* Assignment should be submitted as a maven project.
+* Junit should be well written.
+* Integration test should be implemented.
+* Share the project with us as a git bundle.
+
+### How to create a git bundle
+* Run `git bundle create <assignment-name>.bundle <branch>` to create a git bundle.
+* Run `git clone <assignment-name>.bundle` to un-bundle the repo.
+* Please find more info about git bundle here - https://git-scm.com/docs/git-bundle
