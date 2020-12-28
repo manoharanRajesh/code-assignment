@@ -39,3 +39,10 @@ Implement a REST service which receives the customer statement JSON as a POST da
 * Assignment should be submitted as a maven project
 * Junit should be well written.
 * Integration test should be implemented ( For Mediors only )
+* Share the project with us as a git bundle.
+
+### How to create a git bundle
+* Run `git bundle create <assignment-name>.bundle <branch>` to create a git bundle.
+* Run `git clone <assignment-name>.bundle` to un-bundle the repo.
+* Please find more info about git bundle here - https://git-scm.com/docs/git-bundle
+
