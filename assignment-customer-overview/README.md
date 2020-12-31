@@ -1,30 +1,35 @@
-# Customer Overview
+# Customer Information Service
 
-In our bank we to build a rest api for online customer overview application.
-This application needs to getting data from multiple backend systems via rest calls.
-Based on customerID it needs to gather details from following systems.
+In our bank we need to build an application for exposing customer information via REST api.
+This application needs to get data from Database and other external systems via REST api calls.
+It will gather details from following systems.
 
-### Customers application
-  Will provide details of the customer like (Full name , Date of birth , gender etc).[sample Response Json](./customers)
-### Accounts application
- Will provide details list of accounts, current balances , IBAN numbers.[sample Response Json](./accounts)
-### Insurances application
- Will provide details about customer owned insurance with our bank such as type, coverage amount.[sample Response Json](./insurances)
+###Database - Entity Retationship Diagram
 
-# Non functional requirement
-* Systems should respond with in 1 second.
-* Overview system can take up to 2 seconds max.
+![Entity relationship diagram](CustomerERD.png)
 
-## Assigment
+### Accounts API
 
-1. Design your own rest API specification for overview application.
-2. Design and create a application which meets the non-functional requirements for most of the calls.
-3. Based on the sample jsons,create a stub application for external calls (Customers,accounts and Insurances applications).
-3. Also think about the negative flows and fail fast in case external system take more time.
+The get-accounts API will provide the balances for the requested accounts (IBANS) retrieved from the database.
+Sample request and response is available here. [Sample Response Json](./accounts)
+Sample spring cloud contract - [Cloud contract](contracts/accounts.groovy)
+ 
+### Insurances API
+
+The get-insurances API will provide the insurance information of the customer based on policy number.
+Sample request and response is available here. [Sample Response Json](./insurances)
+Sample spring cloud contract - [Cloud contract](contracts/insurances.groovy)
+
+## Assignment
+
+1. Design your own rest API specification for this service.
+2. Based on the sample requests and responses provided, create a stub application for external calls (/accounts and /insurances API).
+3. Think about non-functional requirements such as performance.
 
 ## Instructions
 
 * Assignment should be submitted as a maven project.
+* Use in-memory database.
 * Junit should be well written.
 * Integration test should be implemented.
 * Share the project with us as a git bundle.

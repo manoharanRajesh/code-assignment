@@ -1,15 +1,15 @@
 [
   {
-    "IBAN": "1234567890",
+    "IBAN": "NL91BANK0123456789",
     "type": "savings",
-    "customerName": "Neo",
+    "customerName": "Sam",
     "currency": "EUR",
     "balance": "5000"
   },
   {
-    "IBAN": "1234567890",
+    "IBAN": "NL91BANK0123456781",
     "type": "current",
-    "customerName": "Neo",
+    "customerName": "Sam",
     "currency": "EUR",
     "balance": "3421.12"
   }
