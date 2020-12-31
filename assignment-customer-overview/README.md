@@ -4,7 +4,7 @@ In our bank we need to build an application for exposing customer information vi
 This application needs to get data from Database and other external systems via REST api calls.
 It will gather details from following systems.
 
-###Database - Entity Retationship Diagram
+### Database - Entity Retationship Diagram
 
 ![Entity relationship diagram](CustomerERD.png)
 
