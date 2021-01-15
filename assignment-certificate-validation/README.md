@@ -7,7 +7,7 @@ so the application must be compiliant to it.
 
 # Your task
 
-You need to implement an web application which confirms the API definition. The application doesn't create actual payments but validating the incoming requests from TPPs and respond back the defined response.
+You need to implement a web application which confirms the API definition. The application doesn't create actual payments but validating the incoming requests from TPPs and respond back the defined response.
 
 These are the validations need to be in place.
 
